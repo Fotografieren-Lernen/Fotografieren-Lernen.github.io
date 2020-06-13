@@ -183,3 +183,50 @@ hr{
     color: black; 
 }
 
+
+@media screen and (max-width: 700px) {
+    .topnav{
+        height: 15vw;
+    }
+    .topnav a{
+        font-size: 4vw;
+    }
+    .headerImage{
+        width: 14.5vw;
+    }
+    .header{
+        position: absolute;
+        top: 15vw;
+        right: 20vw;
+        font-size: 8.5vw;
+    }
+    .city{
+        margin-left: 0vw;
+        margin-top: 50vw;
+        width: 85vw;
+        border-radius: 20px;
+    }
+    .startButton{
+        opacity: 0;
+    }
+    .text1{
+        width: 80vw;
+        margin-left: 8vw;
+        font-size: x-large;
+    }
+    .text2{
+        width: 80vw;
+        margin-left: 8vw;
+        font-size: x-large;
+    }
+    .tipp{
+        font-size: 10vw;
+    }
+    .image{
+        width: 80vw;
+    }
+    .image2{
+        width: 80vw;
+    }
+}    
+
