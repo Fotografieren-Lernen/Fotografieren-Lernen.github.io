@@ -74,11 +74,21 @@ body{
     font-size: 4.5vw;
 }
 
+.header3{
+    position: absolute;
+	top: 20vw;
+	right: 12vw;
+    font-size: 4.5vw;
+}
 
 .tippsHeader{
     margin-top: -3vw;
     margin-right: -55vw;
     font-size: 2.5vw;
+}
+
+.tippMakro{
+    margin-top: 58vw;
 }
 
 .startButton{
@@ -134,6 +144,12 @@ body{
     font-size: 2vw;
 }
 
+.text4{
+    width: 60vw;
+    margin-left: 20vw;
+    font-size: 2vw;
+}
+
 hr{
     width: 50vw;
 }
@@ -176,6 +192,16 @@ hr{
     font-size: 1.3rem;
     cursor: pointer;
 }
+.kategorienButton2{
+    width: 9rem;
+    height: 6rem;
+    border-radius: 0.2rem;
+    outline: none;
+    background-color: cornflowerblue;
+    color: rgb(231, 231, 231);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
 
 /*Katekorien*/
 .links{
@@ -202,8 +228,13 @@ hr{
     }
     .header2{
         position: absolute;
-        top: 15vw;
+        top: 14vw;
         right: 32vw;
+        font-size: 8.5vw;
+    }
+    .header3{
+        top: 12vw;
+        right: 30vw;
         font-size: 8.5vw;
     }
     .topImage{
@@ -243,6 +274,9 @@ hr{
     }
     .tipp{
         font-size: 10vw;
+    }
+    .tippMakro{
+        margin-top: 105vw;
     }
     .image{
         width: 80vw;
