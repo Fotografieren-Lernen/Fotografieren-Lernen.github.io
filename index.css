@@ -213,9 +213,10 @@ hr{
         border-radius: 20px;
     }
     .topImage2{
-        margin-left: 0vw;
-        margin-top: 40vw;
+        margin-left: 1.5vw;
+        margin-top: 25vw;
         width: 85vw;
+        height: 55vw;
         border-radius: 20px;
     }
     .startButton{
@@ -238,7 +239,7 @@ hr{
         width: 80vw;
         margin-left: 9vw;
         font-size: x-large;
-        margin-top: 0vw;;
+        margin-top: 98vw;;
     }
     .tipp{
         font-size: 10vw;
