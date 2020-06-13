@@ -44,14 +44,14 @@ body{
     top: 0.2vw;
 }
 
-.city{
+.topImage{
     margin-left: -41vw;
     margin-top: 16vw;
     width: 48vw;
     border-radius: 20px;
 }
 
-.spoon{
+.topImage2{
     position: absolute;
     top: 16vw;
     left: 5vw;
@@ -197,7 +197,7 @@ hr{
     .header{
         position: absolute;
         top: 15vw;
-        right: 20vw;
+        right: 22vw;
         font-size: 8.5vw;
     }
     .header2{
