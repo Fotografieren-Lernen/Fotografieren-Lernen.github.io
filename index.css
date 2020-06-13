@@ -200,24 +200,45 @@ hr{
         right: 20vw;
         font-size: 8.5vw;
     }
-    .city{
+    .header2{
+        position: absolute;
+        top: 15vw;
+        right: 32vw;
+        font-size: 8.5vw;
+    }
+    .topImage{
         margin-left: 0vw;
         margin-top: 50vw;
+        width: 85vw;
+        border-radius: 20px;
+    }
+    .topImage2{
+        margin-left: 0vw;
+        margin-top: 40vw;
         width: 85vw;
         border-radius: 20px;
     }
     .startButton{
         opacity: 0;
     }
+    .startButton2{
+        opacity: 0;
+    }
     .text1{
         width: 80vw;
-        margin-left: 8vw;
+        margin-left: 9vw;
         font-size: x-large;
     }
     .text2{
         width: 80vw;
-        margin-left: 8vw;
+        margin-left: 9vw;
         font-size: x-large;
+    }
+    .text3{
+        width: 80vw;
+        margin-left: 9vw;
+        font-size: x-large;
+        margin-top: 0vw;;
     }
     .tipp{
         font-size: 10vw;
