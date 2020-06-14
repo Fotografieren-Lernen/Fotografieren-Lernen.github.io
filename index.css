@@ -157,6 +157,13 @@ body{
     font-size: 2vw;
 }
 
+.kontaktText{
+    width: 30vw;
+    margin-left: 20vw;
+    margin-top: 30vw;
+    font-size: xx-large;
+}
+
 hr{
     width: 50vw;
 }
