@@ -14,23 +14,25 @@
             <a href="kontakt.html">Kontakt</a>
             <a href="kategorien.html">Kategorien</a>
             <a href="index.html"> Start</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
         </div>
 
         <img src="astro.jpg" class="topImage2">
         <h2 class="header3">Astro-<br>fotografie</h2> 
 
-        <h1 id="tippMakro" class="tippMakro">Was braucht man für Astrofotografie?</h1>
+        <h1 id="tippMakro" class="tippMakro">Was braucht man für die Astrofotografie?</h1>
         <hr>
         
         <p class="text2">
           Fängst Du gerade an mit der Astrofotografie, dann wird Deine aktuelle Ausrüstung vermutlich ausreichen, um erste Bilder des Nachthimmels zu erstellen.
           <br>
-          Aber schon bald wirdst Du Dich sicherlich nach weiterem zubehör sehnen.
+          Aber schon bald wirdst Du Dich sicherlich nach weiterem Zubehör sehnen.
           <br> <br>
-          Denn das aller wichtigste für um Sterne-fotografieren zu können, ist möglichst viel Licht einzufangen.
-          Sterne leuchten nunmal nicht gerade Hell. (Zumindest von der Erde aus betrachtet)
+          Denn das aller wichtigste um Sterne-fotografieren zu können, ist möglichst viel Licht einzufangen.
+          Sterne leuchten nunmal nicht gerade hell (zumindest von der Erde aus betrachtet).
           <br> 
-          Der trick dabei ist es, möglichst lange zu Belichten und dabei eine möglichst große Blendenöffnung zu haben.
+          Der trick dabei ist es, möglichst lange zu belichten und dabei eine möglichst große Blendenöffnung zu haben.
           <br><br>
           Dabei kommt man schnell auf die Idee, einfach mehrere Minuten den Nachthimmel zu belichten um genung Licht einzufangen, aber da macht die Natur nicht mit.
           <br>
@@ -60,7 +62,7 @@
           Also wenn möglich, dann gehe raus aufs Feld, so weit wie es geht von störenden Lichtquellen und der sogenannten Lichtverschmutzung großer Städte.
           <br><br>
 
-          Ansonsten kan ich Dir nur noch viel Spaß wünschen, beim bestaunen unseres Nachthimmels.
+          Ansonsten kann ich Dir nur noch viel Spaß wünschen, beim bestaunen unseres Nachthimmels.
           <br><br> 
           Es wird mit sicherheit niemals langweilig.
 
@@ -71,6 +73,16 @@
         <br><br><br><br><br><br>
 
   </body> 
+  <script>
+    function myFunction() {
+	  var x = document.getElementById("topnav");
+	  if (x.className == "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
 
   <script src="index.js"></script>
 </html>  

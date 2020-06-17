@@ -16,22 +16,33 @@
             <a href="kontakt.html">Kontakt</a>
             <a href="kategorien.html">Kategorien</a>
             <a href="index.html"> Start</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
         </div>
         <br><br><br>
-        <img src="Makro2.jpg" class="image3"></button>
+        <button class="macroButton" onclick="location.href='makro.html'"><img src="Makro2.jpg" class="image3"></button>
         <br><br><br><br>
         <a class="links" href="makro.html">Makro</a>
         <br><br><br><br>
-        <img src="Sterne.jpg" class="image2">
+        <button class="macroButton" onclick="location.href='astro.html'"><img src="Sterne.jpg" class="image2"></button>
         <br><br><br><br>
         <a class="links" href="astro.html">Astro</a>
         <br><br><br><br>
-        <img src="Tropea.jpg" class="image2">
+        <button class="macroButton" onclick="location.href='landschaft.html'"><img src="Tropea.jpg" class="image2"></button>
         <br><br><br><br>
         <a class="links" href="landschaft.html">Landschaft</a>
         <br><br><br><br>
         <br><br>
   </body> 
-
+  <script>
+    function myFunction() {
+	  var x = document.getElementById("topnav");
+	  if (x.className == "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
   <script src="index.js"></script>
 </html>  

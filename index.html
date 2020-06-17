@@ -24,6 +24,8 @@
             <a href="kontakt.html">Kontakt</a>
             <a href="kategorien.html">Kategorien</a>
             <a href="index.html"> Start</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
         </div>
   </body> 
 
@@ -37,7 +39,7 @@
     
     Du hast eine tolle neue Kamera, aber weißt gar nicht, was Du alles damit machen kannst und wie Du ihr volles Potential ausschöpfst? 
     <br><br>
-    Oder Du wolltes einfach schon lange mal richtig gut fotografieren lernen und tolle Bilder erstellen? 
+    Oder Du wolltest einfach schon lange mal richtig gut fotografieren lernen und tolle Bilder erstellen? 
     <br><br>
     Dann bist du hier genau richtig. Ich werde dir alles notwendige beibringen, was du brauchst, damit alle staunen, wenn sie Deine Bilder sehen. 
     <br><br>
@@ -48,16 +50,17 @@
     <h2 id="subtipp1">Schalte die Kamera in den manuellen Modus!</h2>
     
     <p class="text2">Solange die Kamera auf Automatik gestellt ist und die ganze Arbeit macht, wirst du nicht viel dazu lernen. <br>
-    Also nehme das Drehrad an Deiner Kamera und stelle es auf "m".
+    Also nimm deine Kamera und stelle das Drehrad auf "m".
+    <img src="drehrad2.jpg" class="image">
     </p>
-    <br><br><br>
 
+    <br><br><br>
     <h1 class="tipp">Tipp Nr.2</h1>
     <hr>
     <h2>Die Blende</h2>
 
     <p class="text2">
-        Hast du die Kamera nun in den manuellen Mous gestellt? 
+        Hast du die Kamera nun in den manuellen Modus gestellt? 
         <br>
         Super! <br>Dann stehen dir jede Menge, mehr oder weniger nützliche, Funktionen zur Verfügung.
         <br><br>
@@ -94,7 +97,7 @@
             Um ein Foto zu machen, muss die Kamera den Verschluss öffnen und dadurch Licht auf den Sensor fallen lassen. <br>
             Doch wie lange, soll dieser Verschluss geöffnet bleiben? <br>
             Ist er zu lange geöffnet, dann erreicht so viel Licht den Sensor, dass Du letztlich nur noch ein komplett weißes Bild erhätst. <br>
-            Ist er zu kurz geöffnet, dann erreich nicht genug licht den Sensor und das Bild bleibt schwarz.<br><br>
+            Ist er zu kurz geöffnet, dann erreicht nicht genug Licht den Sensor und das Bild bleibt schwarz.<br><br>
 
             Daher merke dir, je mehr Licht du zur Verfügung hast, desto kürzer musst du dein Bild belichten.
             An einem hellen Sommertag draußen, reichen einige tausendstel einer Sekunde häufig aus. <br><br>
@@ -111,6 +114,15 @@
     <br><br><br><br><br><br>
   </p>
   
-
+  <script>
+    function myFunction() {
+	  var x = document.getElementById("topnav");
+	  if (x.className == "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
   <script src="index.js"></script>
   </html>

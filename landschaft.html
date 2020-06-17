@@ -14,18 +14,20 @@
             <a href="kontakt.html">Kontakt</a>
             <a href="kategorien.html">Kategorien</a>
             <a href="index.html"> Start</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
         </div>
 
-        <img src="landschaft.jpg" class="topImage2">
+        <img src="landschaft-2.jpg" class="topImage2">
         <h2 class="header4">Landschafts-<br>fotografie</h2> 
 
         <h1 id="tippMakro" class="tippMakro">Was braucht man für Landschaftsfotografie?</h1>
         <hr>
         
         <p class="text2">
-          Kommen wir zu einer der vermutlich am meisten verbreiten Kategorien der Fotografie.
+          Kommen wir zu einer der vermutlich am meisten verbreiteten Kategorien der Fotografie.
           <br>
-          Fast jeder der eine beeindruckende Landschaft vor sich sieht, hat früher oder später das Bedürfnis sein Smartphone zu zücken und ein Bild davon zu schießen.
+          Fast jeder, der eine beeindruckende Landschaft vor sich sieht, hat früher oder später das Bedürfnis sein Smartphone zu zücken und ein Bild davon zu schießen.
           <br><br>
           Doch um wirklich beeindruckende Bilder zu schießen braucht es schon etwas mehr.
           <br><br>
@@ -49,7 +51,7 @@
           <br><br>
           Viel mehr gibt es für mich hier nicht zu sagen. Du bist gefragt, gehe raus und probiere einfach alles mögliche aus.
           <br><br>
-          Denn das ist es worauf es beim fotografieren ankommt.
+          Denn das ist es, worauf es beim fotografieren ankommt.
           <br><br>
           Viel Spaß dabei!
 
@@ -64,6 +66,16 @@
         <br><br><br><br><br><br>
 
   </body> 
+  <script>
+    function myFunction() {
+	  var x = document.getElementById("topnav");
+	  if (x.className == "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
 
   <script src="index.js"></script>
 </html>  

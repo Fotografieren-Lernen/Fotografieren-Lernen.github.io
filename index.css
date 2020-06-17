@@ -145,7 +145,7 @@ body{
 }
 
 .text3{
-    margin-top: 55vw;
+    margin-top: 25vw;
     width: 60vw;
     margin-left: 20vw;
     font-size: 2vw;
@@ -196,6 +196,10 @@ hr{
     font-size: 1.3rem;
     cursor: pointer;
 }
+.weiterButton:hover{
+    background-color: rgb(255, 255, 255);
+    color: cornflowerblue;
+}
 .kategorienButton{
     width: 8rem;
     height: 4rem;
@@ -206,6 +210,11 @@ hr{
     font-size: 1.3rem;
     cursor: pointer;
 }
+.kategorienButton:hover{
+    background-color: rgb(255, 255, 255);
+    color: cornflowerblue;
+}
+
 .kategorienButton2{
     width: 9rem;
     height: 6rem;
@@ -216,11 +225,22 @@ hr{
     font-size: 1.3rem;
     cursor: pointer;
 }
+.kategorienButton2:hover{
+    background-color: rgb(255, 255, 255);
+    color: cornflowerblue;
+}
 
 /*Katekorien*/
 .links{
     font-size: 2vw;
     color: black; 
+}
+
+.macroButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
 }
 
 
@@ -230,7 +250,26 @@ hr{
         height: 15vw;
     }
     .topnav a{
-        font-size: 4vw;
+        font-size: 0vw;
+    }
+    .topnav a.icon{
+        font-size: 10vw;
+        position: fixed;
+        top: 1vw;
+        right: 2vw;
+
+    }
+    .topnav.responsive {
+        height: 40vw;
+        padding-top: 17vw;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        font-size: 7vw;
+    }
+    .topnav.responsive a.icon{
+        font-size: 10vw;
     }
     .headerImage{
         width: 14.5vw;
