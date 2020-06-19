@@ -283,7 +283,7 @@ hr{
     }
     .headerImage{
         width: 14.5vw;
-        margin-left: 36.5vw;
+        margin-left: 40vw;
     }
     .header{
         position: absolute;
@@ -364,6 +364,15 @@ hr{
     }
     .links{
         font-size: xx-large;
+    }
+    .weiterButton{
+        font-size: 6vw;
+    }
+    .kategorienButton{
+        font-size: 6vw;
+    }
+    .kategorienButton2{
+        font-size: 6vw;
     }
 }    
 
