@@ -196,8 +196,8 @@ hr{
 }
 
 .weiterButton{
-    width: 8rem;
-    height: 6rem;
+    width: 8vw;
+    height: 6vw;
     border-radius: 0.2rem;
     outline: none;
     background-color: cornflowerblue;
@@ -210,8 +210,8 @@ hr{
     color: cornflowerblue;
 }
 .kategorienButton{
-    width: 8rem;
-    height: 4rem;
+    width: 8vw;
+    height: 4vw;
     border-radius: 0.2rem;
     outline: none;
     background-color: cornflowerblue;
@@ -225,8 +225,8 @@ hr{
 }
 
 .kategorienButton2{
-    width: 9rem;
-    height: 6rem;
+    width: 9vw;
+    height: 6vw;
     border-radius: 0.2rem;
     outline: none;
     background-color: cornflowerblue;
@@ -367,12 +367,18 @@ hr{
     }
     .weiterButton{
         font-size: 6vw;
+        width: 35vw;
+        height: 25vw;
     }
     .kategorienButton{
         font-size: 6vw;
+        width: 40vw;
+        height: 15vw;
     }
     .kategorienButton2{
         font-size: 6vw;
+        width: 40vw;
+        height: 30vw;
     }
 }    
 
