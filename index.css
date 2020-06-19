@@ -202,7 +202,7 @@ hr{
     outline: none;
     background-color: cornflowerblue;
     color: rgb(231, 231, 231);
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     cursor: pointer;
 }
 .weiterButton:hover{
@@ -216,7 +216,7 @@ hr{
     outline: none;
     background-color: cornflowerblue;
     color: rgb(231, 231, 231);
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     cursor: pointer;
 }
 .kategorienButton:hover{
@@ -231,7 +231,7 @@ hr{
     outline: none;
     background-color: cornflowerblue;
     color: rgb(231, 231, 231);
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     cursor: pointer;
 }
 .kategorienButton2:hover{
