@@ -283,6 +283,7 @@ hr{
     }
     .headerImage{
         width: 14.5vw;
+        margin-left: 36.5vw;
     }
     .header{
         position: absolute;
