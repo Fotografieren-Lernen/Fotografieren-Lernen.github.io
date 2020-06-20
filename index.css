@@ -270,7 +270,7 @@ hr{
 
     }
     .topnav.responsive {
-        height: 40vw;
+        height: 35vw;
         padding-top: 17vw;
     }
     .topnav.responsive a {
@@ -282,7 +282,7 @@ hr{
         font-size: 10vw;
     }
     .headerImage{
-        width: 14.5vw;
+        width: 13.5vw;
         margin-left: 40vw;
     }
     .header{
