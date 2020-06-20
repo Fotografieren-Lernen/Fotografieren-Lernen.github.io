@@ -117,8 +117,9 @@ body{
     outline: none;
     background-color: cornflowerblue;
     color: rgb(231, 231, 231);
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
+    text-align: center;
 }
 
 .startButton2{
@@ -216,7 +217,7 @@ hr{
     outline: none;
     background-color: cornflowerblue;
     color: rgb(231, 231, 231);
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
 }
 .kategorienButton:hover{
